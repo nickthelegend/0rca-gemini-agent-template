@@ -5,6 +5,7 @@ description = "Agent template using orca-agent-sdk"
 requires-python = ">=3.12"
 dependencies = [
     "orca-agent-sdk",
+    "agno",
 ]
 
 [build-system]
