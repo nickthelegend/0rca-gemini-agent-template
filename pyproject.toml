@@ -1,0 +1,15 @@
+[project]
+name = "agent-template"
+version = "0.1.0"
+description = "Agent template using orca-agent-sdk"
+requires-python = ">=3.12"
+dependencies = [
+    "orca-agent-sdk",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
